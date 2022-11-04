@@ -7,3 +7,5 @@ HEIGHT = 5 Высота(инт)
 LONG = 19 Длинна(инт)
 WB_TOKEN = TOKEN
 ```
+
+python3 main.py
