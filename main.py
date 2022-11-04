@@ -1,6 +1,5 @@
 import requests as requests
 
-
 NM_ID = 116560924
 WIDTH = 12 #Ширина
 HEIGHT = 5 #Высота
