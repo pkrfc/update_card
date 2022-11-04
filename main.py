@@ -1,15 +1,11 @@
 import requests as requests
 
 NM_ID = 116560924
-WIDTH = 12 #Ширина
-HEIGHT = 5 #Высота
+WIDTH = 11 #Ширина
+HEIGHT = 4 #Высота
 LONG = 19 #Длинна
 
-WB_TOKEN = (
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJ'
-    'RCI6ImNlMDJjMGFjLTM3NmQtNGVmYy1hNDE0LWI4OGM1MjY1N'
-    'TUyNyJ9.G5qZFNiwH6PVd6LwO0N3-x8uSeXQmf2KTVzYle8zgnU'
-)
+WB_TOKEN = 'primer_token'
 HEADERS = {
     'Authorization': f'Bearer {WB_TOKEN}',
     'Content-Type': 'application/json',
@@ -83,5 +79,3 @@ def update_card(vendore_code):
 if __name__ == '__main__':
     vendor_code = get_card()
     print(update_card(vendor_code))
-
-
