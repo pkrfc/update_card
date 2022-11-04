@@ -5,7 +5,7 @@ WIDTH = 11 #Ширина
 HEIGHT = 4 #Высота
 LONG = 19 #Длинна
 
-WB_TOKEN = 'primer_token'
+WB_TOKEN = 'test'
 HEADERS = {
     'Authorization': f'Bearer {WB_TOKEN}',
     'Content-Type': 'application/json',
